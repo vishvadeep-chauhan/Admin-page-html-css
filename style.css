@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.master_admin {
+    font-weight: bold;
+    font-size: larger;
+    float: left;
+    padding: 2vh;
+}
+
+.nab {
+    background-color: #3c8dbc;
+    color: #daf9e8;
+    font-size: 130%;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+
+    display: block;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+    overflow: hidden;
+    display: inline;
+}
+
+.admin {
+    float: right;
+    padding: 2vh;
+    color: #daf9e8;
+    font-size: large;
+    font-weight: 600;
+}
+
+.admin img {
+    vertical-align: middle;
+}
+
+.admin:hover {
+    background-color: #4b4b4b;
+    border-radius: 50vh;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    margin: 5px;
+}
