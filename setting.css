@@ -5,10 +5,6 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color: #ffffff;
-}
-
 .master_admin {
     font-weight: bold;
     font-size: larger;
@@ -44,8 +40,7 @@ body {
 
 .admin img,
 .item img,
-.Dashbord_text img,
-a {
+.Dashbord_text img {
     vertical-align: middle;
     height: 20px;
     margin-right: 10px;
@@ -89,30 +84,4 @@ a {
     font-size: larger;
 }
 
-.pannal-text {
 
-    margin-left: 25rem;
-    margin-top: -43rem;
-    text-align: left;
-    font-size: x-large;
-    font-weight: 700;
-    color: #005473;
-}
-
-.pannal-text span {
-
-
-    text-align: left;
-    font-size: medium;
-    font-weight: 700;
-    color: #032734;
-}
-
-.pannal-text2 {
-
-    text-align: right;
-    font-size: medium;
-    margin-top: -2rem;
-    font-weight: 700;
-    color: #032734;
-}
